@@ -12,19 +12,94 @@ html{
     background-size: cover;
     background-image: url(/Users/johnathonammon/whats-for-dinner/assets/burger-friends.jpg);
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 body {
 
+}
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #0fb9b1;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+.newRecipeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+
+
+}
+.radeo-buttons{
+    display: flex;
+
+   
+}
+.inline-lables{
+    padding-bottom: 20px;
 }
 .burger-img {
     height: cover;
     width: cover;
     position: fixed;
     }
-.timeToCook button {
-    background: #0fb9b1;
-    border: none;
-    border-radius: 10px;
-    color: none;
-    margin: 10px;
+.newRecipeButton {
+    border-radius: 4px;
+
+}
+.clear-button {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.timeToCook {
+    border-radius: 4px;
+    background-color: #0fb9b1;
+    height: 30px;
+    border: 1px solid blue;
+   
     }
+.inline-lables{
+        display: flex;
+    }
+.mainPage-Container{
+    opacity: 80%; grey - #95a5a6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    
+  
+}
+.option-container{
+    background-color: #95a5a6;
+    height: 245px;
+  padding: 40px;
+  width: 245px;
+  display: flex;
+
+}
+.dish-sellector{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.random-idea-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pot-image{
+    height: 95px;
+}
+
+.hidden{
+    display: none;
+}

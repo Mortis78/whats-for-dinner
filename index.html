@@ -7,23 +7,32 @@
     <section class="mainPage">
       <header class="header">
         <h1>whats for dinner?</h1>
-        <button class="newRecipe">ADD A RECIPE</button>
+        <button class="newRecipeButton">ADD A RECIPE</button>
       </header>
       <section class="mainPage-Container">
-        <div class="dish-sellector">
-          <input type="radio" id="side" name="selection-options" value="side">
-          <label for="side">side</label><br> 
-          <input type="radio" id="main-dish" name="selection-options" value="main-dish">
-          <label for="main-dish">Main Dish</label><br> 
-          <input type="radio" id="dissert" name="selection-options" value="dissert">
-          <label for="dissert">Dissert</label><br> 
-          <input type="radio" id="entire-meal" name="selection-options" value="entire-meal">
-          <label for="entire-meal">Entire Meal</label><br> 
+        <section class="dish-sellector option-container">
+          <h1>What are you looking for?</h1>
+          <div class="inline-lables">
+            <input type="radio" class="radio-buttons" id="side" name="selection-options" value="side">
+            <label for="side">side</label>
+          </div>
+          <div class="inline-lables">
+            <input type="radio" class="radio-buttons" id="main-dish" name="selection-options" value="main-dish">
+            <label for="main-dish">Main Dish</label> 
+          </div>
+          <div class="inline-lables">
+            <input type="radio" class="radio-buttons" id="dissert"       name="selection-options" value="dissert">
+            <label for="dissert">Dissert</label> 
+          </div>
+          <div class="inline-lables">
+            <input type="radio" class="radio-buttons" id="entire-meal" name="selection-options" value="entire-meal">
+            <label for="entire-meal">Entire Meal</label>  
+          </div>
           <button class="timeToCook">LET'S COOK!</button>
-        </div>
-        <div class="random-idea-display">
-          <img class="" src="/Users/johnathonammon/whats-for-dinner/assets/cookpot.svg" >
-
+        </section>
+        <div class="random-idea-display option-container">
+          <img class="pot-image" src="/Users/johnathonammon/whats-for-dinner/assets/cookpot.svg" >
+          <button class="clear-button hidden">CLEAR</button>
         </div>
       </section>
     </section>
