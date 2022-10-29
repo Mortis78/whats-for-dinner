@@ -9,7 +9,7 @@ var sides = [
     'Shrimp Summer Rolls',
     'Garlic Butter Mushrooms',
     'HushPuppies',
-]
+    ]
 
 var mains = [
     'Spaghetti and Meatballs',
