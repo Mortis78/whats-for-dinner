@@ -27,7 +27,6 @@ var mains = [
     'Margarita',
     'Pizza',
 ]
-console.log(mains)
 
 var desserts = [
     'Apple Pie',
