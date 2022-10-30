@@ -22,10 +22,7 @@ The spec for this project can be found [here](https://frontend.turing.io/project
 - `cd` into the project
 - Read this README thoroughly, then begin working!
 
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
+______________________________________________________________________________________________  
 
 # What's for Dinner? 
 
@@ -33,19 +30,28 @@ ______________________________________________________
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+[//]: <> Installation Instructions:
+fork this repository
+Clone down your new, forked repo
+cd into the repository
+Open it in your text editor and run open index.html
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
+[//]: (Screen Shot 2022-10-30 at 4.47.04 PM.png)
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+[//]: <> this web application is to help the user select a meal option, through a random idea generater. It could be expanded on to allow them to include their own favorite options.
+
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[//]: <> John Ammon
+(https://github.com/Mortis78)
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+[//]: <>  i Gained experience building an application that utilizes HTML, CSS and JavaScript
+ i had to write HTML and CSS to match a provided comp
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+[//]: <> 
+One really big one for me is understanding the structure for HTML. 
+I used excalodraw to design the main page and then labeled each section as I included it which made it really easy to follow the correct layout when designing my HTML.
+Another really big win is development of my understanding of CSS, beginning of the week it felt very shaky and it didn't get better until I really started spending some time with it excited that I've come as far as I have

@@ -82,7 +82,7 @@ var foodItem;
 
 
 function getSelectedItem(foodArray) {
-    foodItem = foodArray[getRandomIndex(foodArray)]
+    foodItem = foodArray[getRandomIndex(foodArray)] + '!'
 }
 
 function displayFoodItem(){
